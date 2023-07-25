@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_typeahead/flutter_typeahead.dart';
+
+import 'auto_complete_search_list/AutoCompleteSearchScreen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -32,52 +33,25 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  final TextEditingController _controller = TextEditingController();
-  List<String> countries = [
-    'United States',
-    'Canada',
-    'India',
-    'Australia',
-    'United Kingdom',
-    'Germany',
-    // Add more countries...
-  ];
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Auto-Complete Search List'),
+        title: const Text('Flutter Demo'),
       ),
       body: Padding(
         padding: const EdgeInsets.all(8.0),
         child: Column(
           children: [
-            TypeAheadField(
-              textFieldConfiguration: TextFieldConfiguration(
-                autofocus: true,
-                controller: _controller,
-                decoration: const InputDecoration(
-                  hintText: 'Search country...',
-                ),
-              ),
-              suggestionsCallback: (pattern) {
-                return countries
-                    .where((country) =>
-                        country.toLowerCase().contains(pattern.toLowerCase()))
-                    .toList();
-              },
-              itemBuilder: (context, suggestion) {
-                return ListTile(
-                  title: Text(suggestion),
-                );
-              },
-              onSuggestionSelected: (suggestion) {
-                _controller.text = suggestion;
-                // Handle when a suggestion is selected.
-                print('Selected country: $suggestion');
-              },
-            ),
+            ElevatedButton(
+                onPressed: () {
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                          builder: (context) =>
+                              const AutoCompleteSearchScreen()));
+                },
+                child: const Text("Auto-Complete Search List"))
           ],
         ),
       ),

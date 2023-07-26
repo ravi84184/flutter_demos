@@ -1,0 +1,159 @@
+{
+  "project_info": {
+    "project_number": "153446235586",
+    "firebase_url": "https://under-development-b3b9e.firebaseio.com",
+    "project_id": "under-development-b3b9e",
+    "storage_bucket": "under-development-b3b9e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:153446235586:android:0332cd82b17c709211ea5b",
+        "android_client_info": {
+          "package_name": "com.devsnik.cinfo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "153446235586-ugjbk05n5f3kab4i40hhvh7frftll11a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSPylkeBu41hkTgwzR0OQ2XEK6fV9V-Vk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "153446235586-ugjbk05n5f3kab4i40hhvh7frftll11a.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "153446235586-7dcj0q4krahqonjjdcikeqm2k3o0e0h7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.livestar.live-star",
+                "app_store_id": "1603297465"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:153446235586:android:db46abbd5d3acfec11ea5b",
+        "android_client_info": {
+          "package_name": "com.example.flutter_window"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "153446235586-ugjbk05n5f3kab4i40hhvh7frftll11a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSPylkeBu41hkTgwzR0OQ2XEK6fV9V-Vk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "153446235586-ugjbk05n5f3kab4i40hhvh7frftll11a.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "153446235586-7dcj0q4krahqonjjdcikeqm2k3o0e0h7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.livestar.live-star",
+                "app_store_id": "1603297465"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:153446235586:android:e919ddb33792e8b611ea5b",
+        "android_client_info": {
+          "package_name": "com.example.test_flutter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "153446235586-ugjbk05n5f3kab4i40hhvh7frftll11a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSPylkeBu41hkTgwzR0OQ2XEK6fV9V-Vk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "153446235586-ugjbk05n5f3kab4i40hhvh7frftll11a.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "153446235586-7dcj0q4krahqonjjdcikeqm2k3o0e0h7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.livestar.live-star",
+                "app_store_id": "1603297465"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:153446235586:android:28102b6e79dc1ed511ea5b",
+        "android_client_info": {
+          "package_name": "com.flutternik.billing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "153446235586-ugjbk05n5f3kab4i40hhvh7frftll11a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSPylkeBu41hkTgwzR0OQ2XEK6fV9V-Vk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "153446235586-ugjbk05n5f3kab4i40hhvh7frftll11a.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "153446235586-7dcj0q4krahqonjjdcikeqm2k3o0e0h7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.livestar.live-star",
+                "app_store_id": "1603297465"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

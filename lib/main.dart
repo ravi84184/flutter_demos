@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'auto_complete_search_list/AutoCompleteSearchScreen.dart';
+import 'image_to_text/ImageToTextScreen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -42,16 +43,28 @@ class _MyHomePageState extends State<MyHomePage> {
       body: Padding(
         padding: const EdgeInsets.all(8.0),
         child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             ElevatedButton(
-                onPressed: () {
-                  Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                          builder: (context) =>
-                              const AutoCompleteSearchScreen()));
-                },
-                child: const Text("Auto-Complete Search List"))
+              onPressed: () {
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) =>
+                            const AutoCompleteSearchScreen()));
+              },
+              child: const Text("Auto-Complete Search List"),
+            ),
+            ElevatedButton(
+              onPressed: () {
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) => const ImageToTextAppScreen()));
+              },
+              child: const Text("Image to Text"),
+            ),
           ],
         ),
       ),

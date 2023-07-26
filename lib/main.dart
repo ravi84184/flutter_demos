@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'auto_complete_search_list/AutoCompleteSearchScreen.dart';
 import 'image_to_text/ImageToTextScreen.dart';
+import 'lottie_animation/LottieAnimationScreen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -49,21 +50,35 @@ class _MyHomePageState extends State<MyHomePage> {
             ElevatedButton(
               onPressed: () {
                 Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                        builder: (context) =>
-                            const AutoCompleteSearchScreen()));
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const AutoCompleteSearchScreen(),
+                  ),
+                );
               },
               child: const Text("Auto-Complete Search List"),
             ),
             ElevatedButton(
               onPressed: () {
                 Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                        builder: (context) => const ImageToTextAppScreen()));
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const ImageToTextAppScreen(),
+                  ),
+                );
               },
               child: const Text("Image to Text"),
+            ),
+            ElevatedButton(
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const LottieAnimationScreen(),
+                  ),
+                );
+              },
+              child: const Text("Lottie Animation"),
             ),
           ],
         ),

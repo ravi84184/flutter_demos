@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'auto_complete_search_list/AutoCompleteSearchScreen.dart';
+import 'custome_animation/CustomAnimationScreen.dart';
 import 'image_to_text/ImageToTextScreen.dart';
 import 'lottie_animation/LottieAnimationScreen.dart';
 
@@ -79,6 +80,17 @@ class _MyHomePageState extends State<MyHomePage> {
                 );
               },
               child: const Text("Lottie Animation"),
+            ),
+            ElevatedButton(
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const CustomAnimationDemo(),
+                  ),
+                );
+              },
+              child: const Text("Custom Animation"),
             ),
           ],
         ),
